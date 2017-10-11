@@ -22,7 +22,8 @@ http://42.123.114.162:30001
     python server.py
     ```
 2. 安装预测服务    
-    下载tensorflow_model_server并启动
+    预测服务使用[tensorflow-serving](https://github.com/tensorflow/serving)，如果使用ubuntu16.04可以直接下载编译好的可执行文件    
+    下载tensorflow_model_server并启动    
     ```Bash
     ###
     # $MODEL_PORT 预测服务端口
