@@ -19,8 +19,8 @@ http://42.123.114.162:30001
 1. 安装训练服务    
     下载[image-grpc-server训练代码](https://github.com/yony228/image-grpc-server)并部署。<br>
     ```
-    python server.py
-    ```
+    nohup python server.py>log.txt 2>&1 ＆
+    ```
 2. 安装预测服务    
     预测服务使用[tensorflow-serving](https://github.com/tensorflow/serving)，如果使用ubuntu16.04可以直接下载编译好的可执行文件    
     下载tensorflow_model_server并启动    
